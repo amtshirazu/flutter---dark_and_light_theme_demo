@@ -14,12 +14,10 @@ A simple Flutter application demonstrating how to implement **Light and Dark The
 ## Screenshots
 
 ### Light Mode
-![Light Mode Screenshot](screenshots/light.png)
+![Light Mode](lib/screenshots/light.png)
 
 ### Dark Mode
-![Dark Mode Screenshot](screenshots/dark.png)
-
-> Create a `screenshots` folder in your project and add your images there.
+![Dark Mode](lib/screenshots/dark.png)
 
 ## Technologies Used
 
@@ -72,6 +70,9 @@ The app:
 
 ```text
 lib/
+ ├── screenshots/
+ │    ├── light.png
+ │    └── dark.png
  └── main.dart
 ```
 

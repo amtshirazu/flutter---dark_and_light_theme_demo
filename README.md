@@ -1,17 +1,81 @@
-# f221229074_lab4
+# Flutter Light & Dark Theme Demo
 
-A new Flutter project.
+A simple Flutter application demonstrating how to implement **Light and Dark Theme switching** with persistent local storage using `shared_preferences`.
+
+## Features
+
+- 🌞 Light Theme
+- 🌙 Dark Theme
+- 🔄 Real-time theme switching
+- 💾 Saves theme preference locally
+- 🚀 Restores selected theme on app startup
+- 🎨 Material 3 design support
+
+## Screenshots
+
+### Light Mode
+![Light Mode](lib/screenshots/light.png)
+
+### Dark Mode
+![Dark Mode](lib/screenshots/dark.png)
+
+## Technologies Used
+
+- Flutter
+- Dart
+- shared_preferences
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Clone the repository
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+git clone https://github.com/amtshirazu/flutter---dark_and_light_theme_demo.git
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Navigate to the project
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+cd flutter---dark_and_light_theme_demo
+```
+
+### Install dependencies
+
+```bash
+flutter pub get
+```
+
+### Run the app
+
+```bash
+flutter run
+```
+
+## Package Used
+
+```yaml
+shared_preferences:
+```
+
+## How It Works
+
+The app:
+
+1. Loads the saved theme preference during startup.
+2. Uses `ValueNotifier` and `ValueListenableBuilder` for reactive UI updates.
+3. Saves the selected theme using `shared_preferences`.
+4. Automatically restores the saved theme when the app restarts.
+
+## Project Structure
+
+```text
+lib/
+ ├── screenshots/
+ │    ├── light.png
+ │    └── dark.png
+ └── main.dart
+```
+
+## Author
+
+Created by Abdul-Muhsin Tiyumba Shirazu

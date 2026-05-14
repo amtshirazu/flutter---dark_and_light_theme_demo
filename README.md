@@ -1,97 +1,80 @@
-# 🌗 Flutter Light & Dark Theme Demo
+# Flutter Light & Dark Theme Demo
 
-A clean and simple Flutter application that demonstrates how to implement **Light & Dark Theme switching** with persistent local storage using `shared_preferences`.
+A simple Flutter application demonstrating how to implement **Light and Dark Theme switching** with persistent local storage using `shared_preferences`.
 
-## ✨ Features
+## Features
 
-- 🌞 Light Theme Support
-- 🌙 Dark Theme Support
-- 🔄 Instant Theme Switching
-- 💾 Persistent Theme Saving
-- 🚀 Automatically Restores Theme on App Launch
-- 🎨 Built with Material 3
+- 🌞 Light Theme
+- 🌙 Dark Theme
+- 🔄 Real-time theme switching
+- 💾 Saves theme preference locally
+- 🚀 Restores selected theme on app startup
+- 🎨 Material 3 design support
 
----
+## Screenshots
 
-## 📱 Preview
+### Light Mode
+![Light Mode Screenshot](screenshots/light.png)
 
-The app allows users to switch between light and dark mode using a toggle switch.  
-The selected theme is stored locally and restored whenever the app restarts.
+### Dark Mode
+![Dark Mode Screenshot](screenshots/dark.png)
 
----
+> Create a `screenshots` folder in your project and add your images there.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Flutter
 - Dart
 - shared_preferences
 
----
+## Getting Started
 
-## 📦 Installation
-
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/amtshirazu/flutter---dark_and_light_theme_demo.git
 ```
 
-### 2️⃣ Navigate into the project
+### Navigate to the project
 
 ```bash
 cd flutter---dark_and_light_theme_demo
 ```
 
-### 3️⃣ Install dependencies
+### Install dependencies
 
 ```bash
 flutter pub get
 ```
 
-### 4️⃣ Run the application
+### Run the app
 
 ```bash
 flutter run
 ```
 
----
-
-## 📚 Package Used
+## Package Used
 
 ```yaml
-dependencies:
-  shared_preferences: ^2.2.2
+shared_preferences:
 ```
 
----
+## How It Works
 
-## 🧠 How It Works
+The app:
 
-- The app checks the saved theme preference on startup.
-- `ValueNotifier` is used for lightweight state management.
-- Theme changes update the UI instantly.
-- `shared_preferences` stores the selected theme locally.
-- The saved theme is restored automatically when reopening the app.
+1. Loads the saved theme preference during startup.
+2. Uses `ValueNotifier` and `ValueListenableBuilder` for reactive UI updates.
+3. Saves the selected theme using `shared_preferences`.
+4. Automatically restores the saved theme when the app restarts.
 
----
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
 lib/
  └── main.dart
 ```
 
----
+## Author
 
-## 👨‍💻 Author
-
-**Abdul-Muhsin Tiyumba Shirazu**
-
-GitHub: https://github.com/amtshirazu
-
----
-
-## ⭐ If you found this project useful
-
-Give the repository a star ⭐ on GitHub.
+Created by Abdul-Muhsin Tiyumba Shirazu

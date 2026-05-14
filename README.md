@@ -14,10 +14,16 @@ A simple Flutter application demonstrating how to implement **Light and Dark The
 ## Screenshots
 
 ### Light Mode
-![Light Mode](lib/screenshots/light.png)
+
+<p align="center">
+  <img src="lib/screenshots/light.png" width="300">
+</p>
 
 ### Dark Mode
-![Dark Mode](lib/screenshots/dark.png)
+
+<p align="center">
+  <img src="lib/screenshots/dark.png" width="300">
+</p>
 
 ## Technologies Used
 
